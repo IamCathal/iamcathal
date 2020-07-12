@@ -1,0 +1,36 @@
+name: Build Readme
+
+on:
+  push:
+  workflow_dispatch:
+  schedule:
+  # Run every Sunday at 23:55
+    - cron:  '55 23 * * 0'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+
+    - name: Check out repo
+      uses: actions/checkout@v2
+
+    - name: Set up Python
+      uses: actions/setup-python@v2
+      with:
+        python-version: 3.8
+
+    - name: Build and update README
+      run: |-
+        python main.py
+        cat README.md
+
+    - name: Commit and push if changed
+      shell: bash
+      run: |-
+        git diff
+        git config --global user.email "readme-bot@example.com"
+        git config --global user.name "README-bot"
+        git add -A
+        git commit -m "Updated content"
+        git push
