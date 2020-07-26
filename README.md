@@ -12,5 +12,6 @@ I'm currently an [MLH Fellowship](https://fellowship.mlh.io/) intern which is am
 | [Fixed incorrect background color on team discussion comments](https://github.com/poychang/github-dark-theme/pull/216)| Merged 🎉 |
 | [Add result callback invocation for subcommands](https://github.com/pallets/click/pull/1621)| Open |
 | [Added IntRange min and max preview to --help output](https://github.com/pallets/click/pull/1586)| Merged 🎉 |
+| [Add Content-length field for logging](https://github.com/astaxie/beego/pull/4083)| Merged 🎉 |
 | [Fix JSON log formatting](https://github.com/astaxie/beego/pull/4063)| Open |
 ##### This readme is auto generated, checkout the [the source code](https://github.com/iamcathal/iamcathal/blob/master/main.py)
