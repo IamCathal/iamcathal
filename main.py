@@ -31,8 +31,6 @@ def writeReadMe(recentPRs):
     staticText = """
 ## Howya doing I'm Cathal, a passionate 2nd year CS&IT student in NUIG
 
-I'm by no means an expert but I love working with golang and like to use python and javascript. 
-
 I'm currently an [MLH Fellowship](https://fellowship.mlh.io/) intern. It's an internship focused entirely on helping students start their journey in contributing to the world of open source. Not only does this include learning about the best practices and design choices but we are also contributing to real world projects that make an impact. At the moment
 I'm mostly devoting my time to work on [Beego](https://github.com/astaxie/beego), a high performance golang web framework
 
