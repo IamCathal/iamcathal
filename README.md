@@ -50,9 +50,12 @@ I'm mostly devoting my time to work on [Beego](https://github.com/astaxie/beego)
 ### Heres some recent PRs I've worked on:
 | | |
 | ------------- |:-------------:|
+| [Fix team creation background color](https://github.com/poychang/github-dark-theme/pull/235)| Merged 🎉 |
+| [Fix render notice text and background color](https://github.com/poychang/github-dark-theme/pull/234)| Merged 🎉 |
 | [Fix sponsors menu item and introction background color](https://github.com/poychang/github-dark-theme/pull/225)| Merged 🎉 |
 | [Fixed incorrect background color on team discussion comments](https://github.com/poychang/github-dark-theme/pull/216)| Merged 🎉 |
-| [Add result callback invocation for subcommands](https://github.com/pallets/click/pull/1621)| Open |
+| [non-chained group invoked without subcommand invokes result callback](https://github.com/pallets/click/pull/1621)| Merged 🎉 |
+| [More minor grammar fixes](https://github.com/astaxie/beego/pull/4139)| Merged 🎉 |
+| [Minor grammar fixes](https://github.com/astaxie/beego/pull/4135)| Merged 🎉 |
 | [Add custom logging format functionality](https://github.com/astaxie/beego/pull/4119)| Open |
-| [Add Content-length field for logging](https://github.com/astaxie/beego/pull/4083)| Merged 🎉 |
 ##### This readme is auto generated, checkout [the source code](https://github.com/iamcathal/iamcathal/blob/master/main.py)
