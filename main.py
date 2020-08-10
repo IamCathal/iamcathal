@@ -1,4 +1,5 @@
 import requests
+import random
 import json
 
 BASEURL = "https://api.github.com"
@@ -81,8 +82,15 @@ I'm mostly devoting my time to work on [Beego](https://github.com/astaxie/beego)
 | | |
 | ------------- |:-------------:|
 """
-    for PR in recentPRs:
-        staticText += f"| [{PR['title']}]({PR['pullRequestLink']})| {'Merged 🎉' if PR['mergedAt'] else 'Open'} |\n"
+    chosenPRs = []
+    for x in range(5):
+        pick = random.randint(0, len(recentPRs)-1)
+        while pick in chosenPRs:
+             pick = random.randint(0, len(recentPRs)-1)
+
+        chosenPRs.append(pick)
+
+        staticText += f"| [{recentPRs[pick]['title']}]({recentPRs[pick]['pullRequestLink']})| {'Merged 🎉' if recentPRs[pick]['mergedAt'] else 'Open'} |\n"
 
     staticText += "##### This readme is auto generated, checkout [the source code](https://github.com/iamcathal/iamcathal/blob/master/main.py)"
     f = open("README.md", "w")
