@@ -1,7 +1,8 @@
 
-## Howya doing I'm Cathal, a passionate 2nd year CS&IT student in NUIG
+## Howya doing I'm Cathal, a passionate 3rd year CS&IT student in NUIG
 
-* Love working with golang but also use python and javascript for various projects. Mainly into backend development and love writing the underlying infrastructure behind projects such as [Req](https://github.com/ReqApp/Req) or [Fellowship Wrapup](https://github.com/MLH-Fellowship/FellowshipWrapup) (both of which came first place in their competitions). 
+* Love working with golang but also use python and javascript for various projects. Have also used C and java for college work.
+* Mainly into backend development and love writing the underlying infrastructure behind projects such as [Req](https://github.com/ReqApp/Req) or [Fellowship Wrapup](https://github.com/MLH-Fellowship/FellowshipWrapup) (both of which came first place in their competitions). 
 * Recent open source enthusiast after my [MLH Fellowship](https://fellowship.mlh.io/) internship this summer. I contributed fulltime to a handful of open source projects such as [Beego](https://github.com/astaxie/beego) and [Click](https://github.com/pallets/click).
 
 
@@ -47,12 +48,20 @@
 <br />
 <br />
 
-### Heres some recent PRs I've worked on:
+### Here are some recent PRs I've worked on:
 | | |
 | ------------- |:-------------:|
+<<<<<<< HEAD
 | [More minor grammar fixes](https://github.com/astaxie/beego/pull/4139)| Merged 🎉 |
 | [Custom log formatter secondpr](https://github.com/astaxie/beego/pull/4179)| Merged 🎉 |
 | [Add github original streak ext styling](https://github.com/poychang/github-dark-theme/pull/239)| Merged 🎉 |
 | [non-chained group invoked without subcommand invokes result callback](https://github.com/pallets/click/pull/1621)| Merged 🎉 |
 | [Minor grammar fixes](https://github.com/astaxie/beego/pull/4135)| Merged 🎉 |
+=======
+| [Fixed incorrect background color on team discussion comments](https://github.com/poychang/github-dark-theme/pull/216)| Merged 🎉 |
+| [Custom log formatter secondpr](https://github.com/astaxie/beego/pull/4179)| Merged 🎉 |
+| [Fix render notice text and background color](https://github.com/poychang/github-dark-theme/pull/234)| Merged 🎉 |
+| [non-chained group invoked without subcommand invokes result callback](https://github.com/pallets/click/pull/1621)| Merged 🎉 |
+| [Fix sponsors menu item and introction background color](https://github.com/poychang/github-dark-theme/pull/225)| Merged 🎉 |
+>>>>>>> 717e525a4c61b8cd48534d00f86c516ecd144ae7
 ##### This readme is auto generated, checkout [the source code](https://github.com/iamcathal/iamcathal/blob/master/main.py)
