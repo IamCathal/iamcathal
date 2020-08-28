@@ -30,9 +30,10 @@ def getPRs(repoList):
 
 def writeReadMe(recentPRs):
     staticText = """
-## Howya doing I'm Cathal, a passionate 2nd year CS&IT student in NUIG
+## Howya doing I'm Cathal, a passionate 3rd year CS&IT student in NUIG
 
-* Love working with golang but also use python and javascript for various projects. Mainly into backend development and love writing the underlying infrastructure behind projects such as [Req](https://github.com/ReqApp/Req) or [Fellowship Wrapup](https://github.com/MLH-Fellowship/FellowshipWrapup) (both of which came first place in their competitions). 
+* Love working with golang but also use python and javascript for various projects. Have also used C and java for college work.
+* Mainly into backend development and love writing the underlying infrastructure behind projects such as [Req](https://github.com/ReqApp/Req) or [Fellowship Wrapup](https://github.com/MLH-Fellowship/FellowshipWrapup) (both of which came first place in their competitions). 
 * Recent open source enthusiast after my [MLH Fellowship](https://fellowship.mlh.io/) internship this summer. I contributed fulltime to a handful of open source projects such as [Beego](https://github.com/astaxie/beego) and [Click](https://github.com/pallets/click).
 
 
@@ -78,7 +79,7 @@ def writeReadMe(recentPRs):
 <br />
 <br />
 
-### Heres some recent PRs I've worked on:
+### Here are some recent PRs I've worked on:
 | | |
 | ------------- |:-------------:|
 """
