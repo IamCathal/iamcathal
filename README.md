@@ -51,9 +51,9 @@
 ### Here are some recent PRs I've worked on:
 | | |
 | ------------- |:-------------:|
-| [Custom logging format PR#3](https://github.com/astaxie/beego/pull/4188)| Open |
-| [Custom Logging Formatter](https://github.com/astaxie/beego/pull/4157)| Open |
-| [Add github original streak ext styling](https://github.com/poychang/github-dark-theme/pull/239)| Merged 🎉 |
+| [Fix workflow_dispatch incorrect background color](https://github.com/poychang/github-dark-theme/pull/244)| Merged 🎉 |
+| [Fix release tag edit text color](https://github.com/poychang/github-dark-theme/pull/240)| Merged 🎉 |
+| [Fix sponsors menu item and introction background color](https://github.com/poychang/github-dark-theme/pull/225)| Merged 🎉 |
 | [Fix team creation background color](https://github.com/poychang/github-dark-theme/pull/235)| Merged 🎉 |
 | [Custom log formatter secondpr](https://github.com/astaxie/beego/pull/4179)| Merged 🎉 |
 ##### This readme is auto generated, checkout [the source code](https://github.com/iamcathal/iamcathal/blob/master/main.py)
