@@ -51,9 +51,9 @@
 ### Here are some recent PRs I've worked on:
 | | |
 | ------------- |:-------------:|
-| [Add github original streak ext styling](https://github.com/poychang/github-dark-theme/pull/239)| Merged 🎉 |
+| [Fix team creation background color](https://github.com/poychang/github-dark-theme/pull/235)| Merged 🎉 |
+| [Fix sponsors menu item and introction background color](https://github.com/poychang/github-dark-theme/pull/225)| Merged 🎉 |
 | [Fixed incorrect background color on team discussion comments](https://github.com/poychang/github-dark-theme/pull/216)| Merged 🎉 |
 | [Fix render notice text and background color](https://github.com/poychang/github-dark-theme/pull/234)| Merged 🎉 |
-| [Fix workflow_dispatch incorrect background color](https://github.com/poychang/github-dark-theme/pull/244)| Merged 🎉 |
-| [Fix sponsors menu item and introction background color](https://github.com/poychang/github-dark-theme/pull/225)| Merged 🎉 |
+| [non-chained group invoked without subcommand invokes result callback](https://github.com/pallets/click/pull/1621)| Merged 🎉 |
 ##### This readme is auto generated, checkout [the source code](https://github.com/iamcathal/iamcathal/blob/master/main.py)
