@@ -51,9 +51,9 @@
 ### Here are some recent PRs I've worked on:
 | | |
 | ------------- |:-------------:|
-| [Fixed incorrect background color on team discussion comments](https://github.com/poychang/github-dark-theme/pull/216)| Merged 🎉 |
-| [Fix workflow_dispatch incorrect background color](https://github.com/poychang/github-dark-theme/pull/244)| Merged 🎉 |
-| [Fix background for verified commit signature](https://github.com/poychang/github-dark-theme/pull/252)| Merged 🎉 |
 | [Fix sponsors menu item and introction background color](https://github.com/poychang/github-dark-theme/pull/225)| Merged 🎉 |
-| [Add github original streak ext styling](https://github.com/poychang/github-dark-theme/pull/239)| Merged 🎉 |
+| [Fix release tag edit text color](https://github.com/poychang/github-dark-theme/pull/240)| Merged 🎉 |
+| [Apply green color to (currently grey) passing github actions build steps](https://github.com/poychang/github-dark-theme/pull/253)| Merged 🎉 |
+| [Fix background for verified commit signature](https://github.com/poychang/github-dark-theme/pull/252)| Merged 🎉 |
+| [Fixed incorrect background color on team discussion comments](https://github.com/poychang/github-dark-theme/pull/216)| Merged 🎉 |
 ##### This readme is auto generated, checkout [the source code](https://github.com/iamcathal/iamcathal/blob/master/main.py)
