@@ -51,9 +51,9 @@
 ### Here are some recent PRs I've worked on:
 | | |
 | ------------- |:-------------:|
-| [Fix background for verified commit signature](https://github.com/poychang/github-dark-theme/pull/252)| Merged 🎉 |
-| [Apply green color to (currently grey) passing github actions build steps](https://github.com/poychang/github-dark-theme/pull/253)| Merged 🎉 |
+| [Fix notifications background color](https://github.com/poychang/github-dark-theme/pull/310)| Merged 🎉 |
 | [Fix selected notification background color](https://github.com/poychang/github-dark-theme/pull/262)| Merged 🎉 |
-| [Fix workflow_dispatch incorrect background color](https://github.com/poychang/github-dark-theme/pull/244)| Merged 🎉 |
-| [Fix OAuth sign in screen](https://github.com/poychang/github-dark-theme/pull/259)| Merged 🎉 |
+| [Fix branch exit button](https://github.com/poychang/github-dark-theme/pull/311)| Merged 🎉 |
+| [Fix discussions reply header color](https://github.com/poychang/github-dark-theme/pull/309)| Merged 🎉 |
+| [General fixes](https://github.com/poychang/github-dark-theme/pull/314)| Merged 🎉 |
 ##### This readme is auto generated, checkout [the source code](https://github.com/iamcathal/iamcathal/blob/master/main.py)
