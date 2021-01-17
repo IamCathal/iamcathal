@@ -4,18 +4,22 @@ import json
 
 BASEURL = "https://api.github.com"
 
-
 def getPRs(repoList):
     PRList = []
+    currentPRsFound = 0
+    pageCount = 1
 
     for repo in repoList:
-        URL = f"{BASEURL}/repos/{repo}/pulls?state=all"
-        headers = {'Accept': 'application/vnd.github.sailor-v-preview+json'}
+        currentPRsFound = 0
+        URL = f"{BASEURL}/repos/{repo}/pulls?state=all&per_page=100"
+        headers = {'Accept': 'application/vnd.github.v3+json'}
         req = requests.get(URL, headers)
-
         jsonData = json.loads(req.text)
+        i = 0
+        print(f"Fetching [repo:{repo}][pageCount:{pageCount}]")
         for PR in jsonData:
             if PR['user']['login'] == "IamCathal":
+                print(f'[{i}/{len(jsonData)}] - {PR["title"]} - {PR["_links"]["html"]["href"]}')
                 PRObj = {
                     "url": PR["html_url"],
                     "title":PR["title"],
@@ -24,7 +28,39 @@ def getPRs(repoList):
                     "createdAt": PR["created_at"],
                     "mergedAt": PR["merged_at"]
                 }
+                currentPRsFound += 1
                 PRList.append(PRObj)
+            i += 1
+        if (currentPRsFound == 0):
+            print(f"No PRs for [Repo:{repo}][pageCount:{pageCount}]")
+            pageCount += 1
+
+            while (currentPRsFound == 0) and (pageCount < 5):
+                currentPRsFound = 0
+                headers = {'Accept': 'application/vnd.github.v3+json'}
+                URL = f"{BASEURL}/repos/{repo}/pulls?state=all&per_page=100&page={pageCount}"
+                print(f"Getting page {URL}")
+                print(f"Fetching [repo:{repo}[pageCount:{pageCount}]")
+                req = requests.get(URL, headers)
+                jsonData = json.loads(req.text)
+                i = 0
+                for PR in jsonData:
+                    if PR['user']['login'] == "IamCathal":
+                        print(f'[{i}/{len(jsonData)}] - {PR["title"]} - {PR["_links"]["html"]["href"]}')
+                        PRObj = {
+                            "url": PR["html_url"],
+                            "title":PR["title"],
+                            "repo": PR["base"]["repo"]["html_url"],
+                            "pullRequestLink":PR["_links"]["html"]["href"],
+                            "createdAt": PR["created_at"],
+                            "mergedAt": PR["merged_at"]
+                        }
+                        currentPRsFound += 1
+                        PRList.append(PRObj)
+                    i += 1
+                pageCount += 1
+
+    print(f"Returning: {PRList}")
     return PRList
 
 
@@ -65,16 +101,15 @@ def writeReadMe(recentPRs):
 
 <img align="left" alt="Amazon web services (AWS)" width="36px" src="https://raw.githubusercontent.com/github/explore/fbceb94436312b6dacde68d122a5b9c7d11f9524/topics/aws/aws.png" />
 
-<img align="left" alt="C" width="36px" src="https://iamcathal.github.io/svgImages/C.svg" />
+<img align="left" alt="C" width="36px" src="https://cathaloc.dev/svgImages/C.svg" />
 
+<img align="left" alt="MongoDB" width="38px" src="https://cathaloc.dev/svgImages/mongo.svg" />
 
-<img align="left" alt="MongoDB" width="38px" src="https://iamcathal.github.io/svgImages/mongo.svg" />
-
-<img align="left" alt="MySql" width="36px" src="https://iamcathal.github.io/svgImages/mysql.svg" />
-
+<img align="left" alt="MySql" width="36px" src="https://cathaloc.dev/svgImages/mysql.svg" />
 
 <img align="left" alt="Raspberry Pi" width="38px" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/raspberry-pi/raspberry-pi.png" />
 
+<img align="left" alt="Unity" width="38px" src="https://cathaloc.dev/svgImages/unity.svg">
 
 <br />
 <br />
@@ -103,9 +138,8 @@ def writeReadMe(recentPRs):
 
 def main():
     repoList = [
-        "poychang/github-dark-theme",
         "pallets/click",
-        "astaxie/beego"
+        "beego/beego"
         ]
     PRList = getPRs(repoList)
     writeReadMe(PRList)
