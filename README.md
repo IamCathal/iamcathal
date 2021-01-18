@@ -50,9 +50,9 @@
 ### Here are some recent PRs I've worked on:
 | | |
 | ------------- |:-------------:|
-| [More minor grammar fixes](https://github.com/beego/beego/pull/4139)| Merged 🎉 |
-| [Custom Log Formatter PR#1](https://github.com/beego/beego/pull/4174)| Merged 🎉 |
-| [Custom Logging Formatter](https://github.com/beego/beego/pull/4157)| Open |
-| [non-chained group invoked without subcommand invokes result callback](https://github.com/pallets/click/pull/1621)| Merged 🎉 |
 | [Custom log formatter secondpr](https://github.com/beego/beego/pull/4179)| Merged 🎉 |
+| [Minor grammar fixes](https://github.com/beego/beego/pull/4135)| Merged 🎉 |
+| [Custom Log Formatter PR#1](https://github.com/beego/beego/pull/4174)| Merged 🎉 |
+| [Add custom logging format functionality](https://github.com/beego/beego/pull/4119)| Open |
+| [Custom logging format PR#3](https://github.com/beego/beego/pull/4188)| Merged 🎉 |
 ##### This readme is auto generated, checkout [the source code](https://github.com/iamcathal/iamcathal/blob/master/main.py)
