@@ -66,17 +66,17 @@ def getPRs(repoList):
 
 def writeReadMe(recentPRs):
     staticText = """
-## Howya doing I'm Cathal, a passionate 3rd year CS&IT student in NUIG
+## Howya doing I'm Cathal, a passionate 3rd year CS&IT student and code monkey
 
-* Love working with golang but also use python and javascript for various projects. Have also used C and java for college work.
+* Love working with golang but also use python and javascript for various projects.
 * Mainly into backend development and love writing the underlying infrastructure behind projects such as [Req](https://github.com/ReqApp/Req) or [Fellowship Wrapup](https://github.com/MLH-Fellowship/FellowshipWrapup) (both of which came first place in their respective competitions). 
-* Recent open source enthusiast after my [MLH Fellowship](https://fellowship.mlh.io/) internship this summer. I contributed fulltime to a handful of open source projects such as [Beego](https://github.com/astaxie/beego) and [Click](https://github.com/pallets/click).
-
 
 ### I use often:
-<img align="left" alt="Golang" width="56px" style="padding-top:5px" src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/Go_Logo_Blue.svg/220px-Go_Logo_Blue.svg.png" />
+<img align="left" alt="Golang" width="56px" src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/Go_Logo_Blue.svg/1200px-Go_Logo_Blue.svg.png" />
 
 <img align="left" alt="Python" width="36px" src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Python-logo-notext.svg/600px-Python-logo-notext.svg.png" />
+
+<img align="left" alt="Java" width="25px" src="https://upload.wikimedia.org/wikipedia/en/thumb/3/30/Java_programming_language_logo.svg/1200px-Java_programming_language_logo.svg.png" />
 
 <img align="left" alt="Javascript" width="32px" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/javascript/javascript.png" />
 
@@ -85,11 +85,9 @@ def writeReadMe(recentPRs):
 <img align="left" alt="Linux" width="32px" src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/af/Tux.png/220px-Tux.png" />
 
 <br />
+<br />
 
 ### I have used:
-
-
-<img align="left" alt="Java" width="25px" src="https://upload.wikimedia.org/wikipedia/en/thumb/3/30/Java_programming_language_logo.svg/1200px-Java_programming_language_logo.svg.png" />
 
 <img align="left" alt="NodeJS" width="32px" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/nodejs/nodejs.png" />
 
@@ -99,22 +97,20 @@ def writeReadMe(recentPRs):
 
 <img align="left" alt="GraphQL" width="32px" src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/17/GraphQL_Logo.svg/1200px-GraphQL_Logo.svg.png" />
 
-<img align="left" alt="Amazon web services (AWS)" width="36px" src="https://raw.githubusercontent.com/github/explore/fbceb94436312b6dacde68d122a5b9c7d11f9524/topics/aws/aws.png" />
+<img align="left" alt="C" width="36px" src="https://iamcathal.github.io/svgImages/C.svg" />
 
-<img align="left" alt="C" width="36px" src="https://cathaloc.dev/svgImages/C.svg" />
+<img align="left" alt="MongoDB" width="38px" src="https://iamcathal.github.io/svgImages/mongo.svg" />
 
-<img align="left" alt="MongoDB" width="38px" src="https://cathaloc.dev/svgImages/mongo.svg" />
-
-<img align="left" alt="MySql" width="36px" src="https://cathaloc.dev/svgImages/mysql.svg" />
+<img align="left" alt="MySql" width="36px" src="https://iamcathal.github.io/svgImages/mysql.svg" />
 
 <img align="left" alt="Raspberry Pi" width="38px" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/raspberry-pi/raspberry-pi.png" />
 
-<img align="left" alt="Unity" width="38px" src="https://cathaloc.dev/svgImages/unity.svg">
 
 <br />
 <br />
 
-### Here are some recent PRs I've worked on:
+<details><summary> Here are some recent PRs I've worked on </summary>
+
 | | |
 | ------------- |:-------------:|
 """
@@ -129,6 +125,7 @@ def writeReadMe(recentPRs):
         staticText += f"| [{recentPRs[pick]['title']}]({recentPRs[pick]['pullRequestLink']})| {'Merged 🎉' if recentPRs[pick]['mergedAt'] else 'Open'} |\n"
 
     staticText += "##### This readme is auto generated, checkout [the source code](https://github.com/iamcathal/iamcathal/blob/master/main.py)"
+    staticText += "</details>"
     f = open("README.md", "w")
     f.write(staticText)
     f.close()
