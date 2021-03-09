@@ -108,6 +108,7 @@ def writeReadMe(recentPRs):
 
 <br />
 <br />
+<hr>
 
 <details><summary> Here are some recent PRs I've worked on </summary>
 
