@@ -66,7 +66,7 @@ def getPRs(repoList):
 
 def writeReadMe(recentPRs):
     staticText = """
-## Howya doing I'm Cathal, a passionate 3rd year CS&IT student and code monkey
+## Howya doing I'm Cathal, a passionate 3rd year CS&IT student
 
 * Love working with golang but also use python and javascript for various projects.
 * Mainly into backend development and love writing the underlying infrastructure behind projects such as [Req](https://github.com/ReqApp/Req) or [Fellowship Wrapup](https://github.com/MLH-Fellowship/FellowshipWrapup) (both of which came first place in their respective competitions). 
