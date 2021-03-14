@@ -47,9 +47,9 @@
 
 | | |
 | ------------- |:-------------:|
-| [Custom Log Formatter PR#1](https://github.com/beego/beego/pull/4174)| Merged 🎉 |
 | [Custom logging format PR#3](https://github.com/beego/beego/pull/4188)| Merged 🎉 |
-| [non-chained group invoked without subcommand invokes result callback](https://github.com/pallets/click/pull/1621)| Merged 🎉 |
-| [Custom log formatter secondpr](https://github.com/beego/beego/pull/4179)| Merged 🎉 |
 | [Custom Logging Formatter](https://github.com/beego/beego/pull/4157)| Open |
+| [Custom Log Formatter PR#1](https://github.com/beego/beego/pull/4174)| Merged 🎉 |
+| [Custom log formatter secondpr](https://github.com/beego/beego/pull/4179)| Merged 🎉 |
+| [non-chained group invoked without subcommand invokes result callback](https://github.com/pallets/click/pull/1621)| Merged 🎉 |
 ##### This readme is auto generated, checkout [the source code](https://github.com/iamcathal/iamcathal/blob/master/main.py)</details>
