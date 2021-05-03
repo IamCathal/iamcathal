@@ -35,7 +35,7 @@ def getPRs(repoList):
             print(f"No PRs for [Repo:{repo}][pageCount:{pageCount}]")
             pageCount += 1
 
-            while (currentPRsFound == 0) and (pageCount < 5):
+            while (currentPRsFound == 0) and (pageCount < 6):
                 currentPRsFound = 0
                 headers = {'Accept': 'application/vnd.github.v3+json'}
                 URL = f"{BASEURL}/repos/{repo}/pulls?state=all&per_page=100&page={pageCount}"
@@ -116,7 +116,8 @@ def writeReadMe(recentPRs):
 | ------------- |:-------------:|
 """
     chosenPRs = []
-    for x in range(5):
+    maxPRs = len(recentPRs) if len(recentPRs) <= 5 else 5
+    for x in range(maxPRs):
         pick = random.randint(0, len(recentPRs)-1)
         while pick in chosenPRs:
              pick = random.randint(0, len(recentPRs)-1)
