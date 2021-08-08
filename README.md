@@ -47,9 +47,9 @@
 
 | | |
 | ------------- |:-------------:|
+| [Add custom logging format functionality](https://github.com/beego/beego/pull/4119)| Open |
 | [Minor grammar fixes](https://github.com/beego/beego/pull/4135)| Merged 🎉 |
 | [Add Content-length field for logging](https://github.com/beego/beego/pull/4083)| Merged 🎉 |
-| [Add custom logging format functionality](https://github.com/beego/beego/pull/4119)| Open |
-| [Fix JSON log formatting](https://github.com/beego/beego/pull/4063)| Open |
 | [non-chained group invoked without subcommand invokes result callback](https://github.com/pallets/click/pull/1621)| Merged 🎉 |
+| [More minor grammar fixes](https://github.com/beego/beego/pull/4139)| Merged 🎉 |
 ##### This readme is auto generated, checkout [the source code](https://github.com/iamcathal/iamcathal/blob/master/main.py)</details>
