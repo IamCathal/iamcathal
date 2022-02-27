@@ -47,7 +47,7 @@
 
 | | |
 | ------------- |:-------------:|
-| [non-chained group invoked without subcommand invokes result callback](https://github.com/pallets/click/pull/1621)| Merged 🎉 |
-| [Added IntRange min and max preview to --help output](https://github.com/pallets/click/pull/1586)| Merged 🎉 |
 | [Fix JSON log formatting](https://github.com/beego/beego/pull/4063)| Open |
+| [Added IntRange min and max preview to --help output](https://github.com/pallets/click/pull/1586)| Merged 🎉 |
+| [non-chained group invoked without subcommand invokes result callback](https://github.com/pallets/click/pull/1621)| Merged 🎉 |
 ##### This readme is auto generated, checkout [the source code](https://github.com/iamcathal/iamcathal/blob/master/main.py)</details>
