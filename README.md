@@ -2,6 +2,7 @@
 ## Howya doing I'm Cathal, a passionate final year CS&IT student
 
 * Love working with golang but also use python and javascript for various projects.
+* My most recent project is [Neo](https://github.com/NeoSteamFriendGraphing/neo), a distributed system built for my final year project which generates an indepth analysis of your friend network on Steam to see exactly what kind of friends you have or find the shortest distance between two steam users. 
 * Mainly into backend development and love writing the underlying infrastructure behind projects such as [Req](https://github.com/ReqApp/Req) or [Fellowship Wrapup](https://github.com/MLH-Fellowship/FellowshipWrapup) (both of which came first place in their respective competitions). 
 
 ### I use often:
@@ -49,5 +50,6 @@
 | ------------- |:-------------:|
 | [Fix JSON log formatting](https://github.com/beego/beego/pull/4063)| Open |
 | [Add Content-length field for logging](https://github.com/beego/beego/pull/4083)| Merged 🎉 |
+| [Add custom logging format functionality](https://github.com/beego/beego/pull/4119)| Open |
 | [non-chained group invoked without subcommand invokes result callback](https://github.com/pallets/click/pull/1621)| Merged 🎉 |
 ##### This readme is auto generated, checkout [the source code](https://github.com/iamcathal/iamcathal/blob/master/main.py)</details>
