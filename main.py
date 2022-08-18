@@ -66,11 +66,11 @@ def getPRs(repoList):
 
 def writeReadMe(recentPRs):
     staticText = """
-## Howya doing I'm Cathal, a passionate final year CS&IT student
+## Howya doing I'm Cathal
 
 * Love working with golang but also use python and javascript for various projects.
 * My most recent project is [Neo](https://github.com/NeoSteamFriendGraphing/neo), a distributed system built for my final year project which generates an indepth analysis of your friend network on Steam to see exactly what kind of friends you have or find the shortest distance between two steam users. 
-* Mainly into backend development and love writing the underlying infrastructure behind projects such as [Req](https://github.com/ReqApp/Req) or [Fellowship Wrapup](https://github.com/MLH-Fellowship/FellowshipWrapup) (both of which came first place in their respective competitions). 
+* Mainly into backend development and love writing the underlying infrastructure behind projects such as [Req](https://github.com/ReqApp/Req) or [Fellowship Wrapup](https://github.com/MLH-Fellowship/FellowshipWrapup) (both of which came first place in their respective competitions). My overall grade for Neo was 90%, you can view my exam transcript [here](https://cathaloc.dev/results.html)
 
 ### I use often:
 <img align="left" alt="Golang" width="56px" src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/Go_Logo_Blue.svg/1200px-Go_Logo_Blue.svg.png" />
@@ -85,6 +85,10 @@ def writeReadMe(recentPRs):
 
 <img align="left" alt="Linux" width="32px" src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/af/Tux.png/220px-Tux.png" />
 
+<img align="left" alt="Docker" width="36px" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/docker/docker.png" />
+
+<img align="left" alt="Raspberry Pi" width="38px" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/raspberry-pi/raspberry-pi.png" />
+
 <br />
 <br />
 
@@ -94,18 +98,7 @@ def writeReadMe(recentPRs):
 
 <img align="left" alt="HTML" width="32px" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/html/html.png" />
 
-<img align="left" alt="Docker" width="36px" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/docker/docker.png" />
-
-<img align="left" alt="GraphQL" width="32px" src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/17/GraphQL_Logo.svg/1200px-GraphQL_Logo.svg.png" />
-
-<img align="left" alt="C" width="36px" src="https://iamcathal.github.io/svgImages/C.svg" />
-
 <img align="left" alt="MongoDB" width="38px" src="https://iamcathal.github.io/svgImages/mongo.svg" />
-
-<img align="left" alt="MySql" width="36px" src="https://iamcathal.github.io/svgImages/mysql.svg" />
-
-<img align="left" alt="Raspberry Pi" width="38px" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/raspberry-pi/raspberry-pi.png" />
-
 
 <br />
 <br />
