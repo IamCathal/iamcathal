@@ -91,17 +91,6 @@ def writeReadMe(recentPRs):
 
 <br />
 <br />
-
-### I have used:
-
-<img align="left" alt="NodeJS" width="32px" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/nodejs/nodejs.png" />
-
-<img align="left" alt="HTML" width="32px" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/html/html.png" />
-
-<img align="left" alt="MongoDB" width="38px" src="https://iamcathal.github.io/svgImages/mongo.svg" />
-
-<br />
-<br />
 <hr>
 
 <details><summary> Here are some recent PRs I've worked on </summary>
