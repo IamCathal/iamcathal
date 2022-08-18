@@ -24,23 +24,12 @@
 
 <br />
 <br />
-
-### I have used:
-
-<img align="left" alt="NodeJS" width="32px" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/nodejs/nodejs.png" />
-
-<img align="left" alt="HTML" width="32px" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/html/html.png" />
-
-<img align="left" alt="MongoDB" width="38px" src="https://iamcathal.github.io/svgImages/mongo.svg" />
-
-<br />
-<br />
 <hr>
 
 <details><summary> Here are some recent PRs I've worked on </summary>
 
 | | |
 | ------------- |:-------------:|
-| [Added IntRange min and max preview to --help output](https://github.com/pallets/click/pull/1586)| Merged 🎉 |
 | [non-chained group invoked without subcommand invokes result callback](https://github.com/pallets/click/pull/1621)| Merged 🎉 |
+| [Added IntRange min and max preview to --help output](https://github.com/pallets/click/pull/1586)| Merged 🎉 |
 ##### This readme is auto generated, checkout [the source code](https://github.com/iamcathal/iamcathal/blob/master/main.py)</details>
